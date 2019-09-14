@@ -8,8 +8,8 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "dist": "grunt",
-    "start": "node ./bin/www"
+    "dist": "grunt --configPath='./config.js'",
+    "start": "set WS_SECRET=lol&& node ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
